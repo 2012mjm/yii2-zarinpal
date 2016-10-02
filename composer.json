@@ -1,0 +1,31 @@
+{
+    "name": "mjm/zarinpal",
+    "description": "Online Zarinpal Payment Extension For Yii2",
+    "type": "yii2-extension",
+    "keywords": ["zarinpal","online","payment","iran","persian"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Mohammad Javad Masoudian",
+            "email": "info@mjm3d.ir"
+        },
+        {
+            "name": "Amir Mohsen Asaran",
+            "email": "admin@mihanmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mjm\\zarinpal\\": ""
+        }
+    },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "git@github.com:2012mjm/yii2-zarinpal.git"
+        }
+    ]
+}
